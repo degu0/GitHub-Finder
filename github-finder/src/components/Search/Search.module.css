@@ -1,0 +1,39 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #010409;
+    color: #B5BDC4;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid #6E7681;
+}
+
+
+.input {
+    padding: 7px;
+    width: 28vw;
+    border: 1px solid #6E7681;
+    border-radius: 7px 0 0 7px;
+    color: #6E7681;
+    background-color: #010409;
+}
+
+.button {
+    padding: 3px 0 7px;
+    width: 5vw;
+    border: 1px solid #6E7681;
+    background-color: #010409;
+    border-radius: 0 7px 7px 0;
+    margin-left: -1px;
+}
+
+.button svg {
+    color: #6E7681;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10vw;
+}

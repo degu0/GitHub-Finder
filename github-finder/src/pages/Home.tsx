@@ -1,8 +1,8 @@
 import { UserProps } from '../types/user'
 
 
-import Search from '../components/Search'
-import User from '../components/User'
+import Search from '../components/Search/Search'
+import User from '../components/User/User'
 import Error from '../components/Error'
 
 import { useState } from 'react'

@@ -1,0 +1,44 @@
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem {
+    border-radius: 50%;
+    border: 1px solid gray;
+    margin: 20px 0 50px;
+    width: 30vw;
+}
+
+.login {
+    font-size: 27px;
+    color: #C9D1D9;
+}
+
+.seguidores {
+    display: flex;
+    width: 15vw;
+    justify-content: space-between;
+    color: #8B949E;
+}
+
+.button {
+    padding: 15px;
+    color: #8B949E;
+    background-color: #1e2226;
+    border: 1px solid #697078;
+    border-radius: 1rem;
+    text-align: center;
+    text-decoration: none;
+    width: 17vw;
+    margin: 3rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #30363D;
+    border: 1.5px solid #8B949E;
+}
+
