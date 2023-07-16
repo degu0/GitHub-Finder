@@ -3,7 +3,7 @@ import { UserProps } from '../types/user'
 
 import Search from '../components/Search/Search'
 import User from '../components/User/User'
-import Error from '../components/Error'
+import Error from '../components/Error/Error'
 
 import { useState } from 'react'
 
@@ -21,13 +21,13 @@ const Home = () => {
             return
         }
 
-        const { avatar_url, login, location, followers, following
+        const { avatar_url, login, name, followers, following
         } = data
 
         const userData: UserProps = {
             avatar_url,
             login,
-            location,
+            name,
             followers,
             following,
         }

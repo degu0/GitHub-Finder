@@ -19,7 +19,7 @@
 }
 
 .button {
-    padding: 3px 0 7px;
+    padding: 7px 0;
     width: 5vw;
     border: 1px solid #6E7681;
     background-color: #010409;
@@ -29,6 +29,7 @@
 
 .button svg {
     color: #6E7681;
+    margin: -2px;
 }
 
 .logo{

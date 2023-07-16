@@ -11,9 +11,17 @@
     width: 30vw;
 }
 
-.login {
+.name {
     font-size: 27px;
     color: #C9D1D9;
+    margin: 0;
+}
+
+.login {
+    font-size: 23px;
+    color: #C9D1D9;
+    font-weight: 100;
+    margin: 0 0 1rem;
 }
 
 .seguidores {
@@ -21,6 +29,19 @@
     width: 15vw;
     justify-content: space-between;
     color: #8B949E;
+}
+
+.followers {
+    display: flex;
+    align-items: center;
+}
+
+.followers svg {
+    margin-right: 0.2rem;
+}
+
+.followers:hover, .following:hover {
+    color: #58a6ff;
 }
 
 .button {

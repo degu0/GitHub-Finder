@@ -1,11 +1,12 @@
 import { RepoProps } from "../types/repo";
 
-import Repo from "../components/Repo";
+import Repo from "../components/Repo/Repo";
 
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-import classes from "./Repos.module.css";
+import styles from "./Repos.module.css";
+import BackBtn from "../components/BackButton/BackBtn";
 
 
 const Repos = () => {
@@ -34,11 +35,12 @@ const Repos = () => {
 
 
     return (
-        <div className={classes.repos}>
+        <div className={styles.repos}>
+            <BackBtn/>
             <h2>Explore os repositórios do usuário: {username}</h2>
             {repos && repos.length === 0 && <p>Não há repositórios.</p>}
             {repos && repos.length > 0 && (
-                <div className={classes.repos_container}>
+                <div className={styles.repos_container}>
                     {repos.map((repo: RepoProps) => (
                         <Repo key={repo.name} {...repo} />
                     ))}

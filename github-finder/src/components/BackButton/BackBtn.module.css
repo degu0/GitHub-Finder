@@ -1,0 +1,23 @@
+.back_btn {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #1e2226;
+  border: 1px solid #697078;
+  color: #8B949E;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+.back_btn:hover {
+  background-color: #30363D;
+  border: 1.5px solid #8B949E;
+}
+
+h2 {
+  text-align: center;
+  color: #8b9e94;
+}
