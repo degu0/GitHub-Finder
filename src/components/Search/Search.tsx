@@ -1,5 +1,3 @@
-import React from "react";
-
 type SearchProps = {
     loadUser: (userName: string) => Promise<void>
 }

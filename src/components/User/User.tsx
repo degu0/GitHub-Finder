@@ -1,4 +1,3 @@
-import React from "react";
 import { UserProps } from "../../types/user";
 
 import { GoPeople } from 'react-icons/go'
